@@ -9,7 +9,7 @@
         grid-template-columns: 1fr 1fr 1fr;
         gap: 24px;
         
-        &--is--active{
+        &--is-active{
             display: grid;
 
         }
@@ -34,7 +34,7 @@
             margin: 0 1vw;
             border-bottom: 5px solid transparent;
 
-            &--is--active{
+            &--is-active{
                 border-color:  variaveis.$corTextoSecundario;
             }
         }

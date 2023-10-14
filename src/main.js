@@ -16,6 +16,14 @@ document.addEventListener('DOMContentLoaded', function () {
     for (let i = 0; i < questions.length; i++) {
         questions[i].addEventListener('click', abreOuFechaResposta);
     }
+    
+    // Adicionando este eventListener para o conteudo das respostas
+    const answers = document.querySelectorAll('.faq__questions__item__answer'); // Add this line
+    
+    for (let i = 0; i < answers.length; i++) {
+        answers[i].addEventListener('click', abreOuFechaResposta); 
+    }
+    //Fim do novo codigo das respostas
 })
 
 function abreOuFechaResposta(elemento) {
